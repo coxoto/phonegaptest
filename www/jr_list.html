@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>借入</title>
+<link rel="stylesheet" href="css/jquerymobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="css/borrow.css">
+<script src="js/borrow.js"></script>
+	<div class="site_top">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="st_goback"><a href="" onClick="changepage('index.html','slide','true');">返回</a></td>
+                <td class="st_title">我的借入</td>
+                <td class="st_share"></td>
+            </tr>
+        </table>
+    </div>
+	<div class="main jr_middle">
+        <div class="borrow_menu">
+			<table cellpadding="0" cellspacing="0">
+            	<tr>
+                	<td><a id="m_r_out" href="" class="br_m_now">待还款</a></td>
+                    <td><a id="m_r_wait" href="">未到期</a></td>
+                    <td><a id="m_r_doing" href="">筹款中</a></td>
+                    <td><a id="m_r_over" href="">已还款</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="br_r_out br_list">
+        	<div class="br_item" onClick="changepage('jr_detail.html','slide','');">
+        	<table cellpadding="0" cellspacing="0">
+            	<tr>
+                	<td class="list_td_title">借入金额</td>
+                    <td class="list_td_money">50,000<span>元</span></td>
+                    <td class="list_td_num" colspan="2"><span>逾期天数：3</span></td>
+                </tr>
+                <tr>
+                	<td class="list_td_title">应还金额</td>
+                    <td class="list_td_money">50,500<span>元</span></td>
+                    <td class="list_td_title">还款日期</td>
+                    <td class="list_td_date">2015-04-12</td>
+                </tr>
+            </table>
+            </div>
+            <div class="br_item" onClick="changepage('jr_detail.html','slide','');">
+        	<table cellpadding="0" cellspacing="0" onClick="">
+            	<tr>
+                	<td class="list_td_title">借入金额</td>
+                    <td class="list_td_money">50,000<span>元</span></td>
+                    <td class="list_td_num" colspan="2"><span>逾期天数：3</span></td>
+                </tr>
+                <tr>
+                	<td class="list_td_title">应还金额</td>
+                    <td class="list_td_money">50,500<span>元</span></td>
+                    <td class="list_td_title">还款日期</td>
+                    <td class="list_td_date">2015-04-12</td>
+                </tr>
+            </table>
+            </div>
+            <div class="br_item" onClick="changepage('jr_detail.html','slide','');">
+        	<table cellpadding="0" cellspacing="0" onClick="">
+            	<tr>
+                	<td class="list_td_title">借入金额</td>
+                    <td class="list_td_money">50,000<span>元</span></td>
+                    <td class="list_td_num" colspan="2"><span>逾期天数：3</span></td>
+                </tr>
+                <tr>
+                	<td class="list_td_title">应还金额</td>
+                    <td class="list_td_money">50,500<span>元</span></td>
+                    <td class="list_td_title">还款日期</td>
+                    <td class="list_td_date">2015-04-12</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <div class="br_r_wait br_list">
+        	<div class="br_item" onClick="changepage('jr_detail.html','slide','');">
+        	<table cellpadding="0" cellspacing="0" onClick="">
+            	<tr>
+                	<td class="list_td_title">借入金额</td>
+                    <td class="list_td_money">50,000<span>元</span></td>
+                    <td class="list_td_num" colspan="2"><span>剩余天数：3</span></td>
+                </tr>
+                <tr>
+                	<td class="list_td_title">到期应还</td>
+                    <td class="list_td_money">50,500<span>元</span></td>
+                    <td class="list_td_title">还款日期</td>
+                    <td class="list_td_date">2015-04-12</td>
+                </tr>
+            </table>
+            </div>
+            <div class="br_item" onClick="changepage('jr_detail.html','slide','');">
+        	<table cellpadding="0" cellspacing="0" onClick="">
+            	<tr>
+                	<td class="list_td_title">借入金额</td>
+                    <td class="list_td_money">50,000<span>元</span></td>
+                    <td class="list_td_num" colspan="2"><span>剩余天数：3</span></td>
+                </tr>
+                <tr>
+                	<td class="list_td_title">到期应还</td>
+                    <td class="list_td_money">50,500<span>元</span></td>
+                    <td class="list_td_title">还款日期</td>
+                    <td class="list_td_date">2015-04-12</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <div class="br_r_doing br_list">
+        	<div class="br_item" onClick="changepage('jr_detail.html','slide','');">
+        	<table cellpadding="0" cellspacing="0" onClick="">
+            	<tr>
+                	<td class="list_td_title">借入金额</td>
+                    <td class="list_td_money">50,000<span>元</span></td>
+                    <td class="list_td_num" colspan="2"><span>剩余天数：3</span></td>
+                </tr>
+                <tr>
+                	<td class="list_td_title">到期应还</td>
+                    <td class="list_td_money">50,500<span>元</span></td>
+                    <td class="list_td_title">已筹金额</td>
+                    <td class="list_td_money_r">3,000<span>元</span></td>
+                </tr>
+            </table>
+            </div>
+            <div class="br_item" onClick="changepage('jr_detail.html','slide','');">
+        	<table cellpadding="0" cellspacing="0" onClick="">
+            	<tr>
+                	<td class="list_td_title">借入金额</td>
+                    <td class="list_td_money">50,000<span>元</span></td>
+                    <td class="list_td_num" colspan="2"><span>剩余天数：3</span></td>
+                </tr>
+                <tr>
+                	<td class="list_td_title">到期应还</td>
+                    <td class="list_td_money">50,500<span>元</span></td>
+                    <td class="list_td_title">已筹金额</td>
+                    <td class="list_td_money_r">3,000<span>元</span></td>
+                </tr>
+            </table>
+            </div>
+            <div class="br_item" onClick="changepage('jr_detail.html','slide','');">
+        	<table cellpadding="0" cellspacing="0" onClick="">
+            	<tr>
+                	<td class="list_td_title">借入金额</td>
+                    <td class="list_td_money">50,000<span>元</span></td>
+                    <td class="list_td_num" colspan="2"><span>剩余天数：3</span></td>
+                </tr>
+                <tr>
+                	<td class="list_td_title">到期应还</td>
+                    <td class="list_td_money">50,500<span>元</span></td>
+                    <td class="list_td_title">已筹金额</td>
+                    <td class="list_td_money_r">3,000<span>元</span></td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <div class="br_r_over br_list">
+        	<div class="br_item" onClick="changepage('jr_detail.html','slide','');">
+        	<table cellpadding="0" cellspacing="0" onClick="">
+            	<tr>
+                	<td class="list_td_title">借入金额</td>
+                    <td class="list_td_money">50,000<span>元</span></td>
+                    <td class="list_td_title">借入日期</td>
+                    <td class="list_td_date">2015-04-12</td>
+                </tr>
+                <tr>
+                	<td class="list_td_title">还款金额</td>
+                    <td class="list_td_money">50,500<span>元</span></td>
+                    <td class="list_td_title">还款日期</td>
+                    <td class="list_td_date">2015-06-12</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

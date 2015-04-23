@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加银行卡</title>
+<link rel="stylesheet" href="css/jquerymobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/common.js"></script>
+
+</head>
+
+<body data-role="page">
+<link rel="stylesheet" href="css/addbank.css">
+<script src="js/addbank.js"></script>
+<div class="site_top">
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="st_goback"><a href="anonymityborrow.html" data-transition="slide"  data-direction="reverse">返回</a></td>
+            <td class="st_title">添加银行卡</td>
+            <td class="st_share"></td>
+        </tr>
+    </table>
+</div>
+<div class="main credit_body">
+<form>
+    <div class="lent_title">真实姓名</div>
+    <div class="lent_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td><input type="text"  class="lent_input" placeholder="请输入您的真实姓名"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="lent_title">身份证号</div>
+    <div class="lent_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td><input type="text"  class="lent_input" placeholder="请输入您的身份证号"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="lent_title">选择银行卡</div>
+    <div class="lent_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="selectblank_table">
+            <tbody>
+            <tr>
+                <td>
+                	<select  class="change_blank" data-role="none">
+                    	<option>请选择银行</option>
+                    	<option>招商银行</option>
+                        <option>中国民生银行</option>
+                        <option>工商银行</option>
+                        <option>农业银行</option>
+                        <option>建设银行</option>
+                    </select>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="lent_title">银行卡号</div>
+    <div class="lent_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td><input type="text"  class="lent_input" placeholder="请输入银行卡号" ></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="add_bottom">
+        <div class="addbank_btn">添加</div>
+	</div>
+</form>
+</div>
+</body>
+</html>

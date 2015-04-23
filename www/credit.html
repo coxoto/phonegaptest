@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>授信</title>
+<link rel="stylesheet" href="css/jquerymobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>    
+<link rel="stylesheet" href="css/credit.css">
+<script src="js/credit.js"></script>
+	<div class="site_top">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="st_goback"></td>
+                <td class="st_title">
+					<div>
+                	<a id="c_t_contacts" class="st_menu_now" onClick="creditinfo.ShowContacts();">联系人</a>
+                    <a id="c_t_credits" onClick="creditinfo.ShowFriends();">已授信</a>
+                    <a id="c_t_sort">排行榜</a>
+                    </div>
+                </td>
+                <td class="st_share"><a><img src="images/bg_credit_st_left.png" /></a></td>
+            </tr>
+        </table>
+    </div>
+	<div class="main credit_body">
+		<div class="c_top">
+        	<div class="c_search">
+            	<div class="cs_border">
+                	<input class="cs_input" type="text" placeholder="搜索" />
+                </div>
+			</div>
+            <div class="bg_search"></div>
+        </div>
+		<div class="c_f_list">
+    
+        </div>
+        <div class="charlist">
+			<a id="btn_0">A</a>
+            <a id="btn_1">B</a>
+            <a id="btn_2">C</a>
+            <a id="btn_3">D</a>
+            <a id="btn_4">E</a>
+            <a id="btn_5">F</a>
+            <a id="btn_6">G</a>
+            <a id="btn_7">H</a>
+            <a id="btn_8">I</a>
+            <a id="btn_9">J</a>
+            <a id="btn_10">K</a>
+            <a id="btn_11">L</a>
+            <a id="btn_12">M</a>
+            <a id="btn_13">N</a>
+            <a id="btn_14">O</a>
+            <a id="btn_15">P</a>
+            <a id="btn_16">Q</a>
+            <a id="btn_17">R</a>
+            <a id="btn_18">S</a>
+            <a id="btn_19">T</a>
+            <a id="btn_20">U</a>
+            <a id="btn_21">V</a>
+            <a id="btn_22">W</a>
+            <a id="btn_23">X</a>
+            <a id="btn_24">Y</a>
+            <a id="btn_25">Z</a>
+            <a id="btn_26">#</a>
+        </div>
+		<div class="bottom_menu">
+        	<table cellpadding="0" cellspacing="0">
+            	<tr>
+					<td class="menu_me"><a href="index.html" data-ajax="false">我</a></td>
+                    <td class="menu_cd"><a href="credit.html" class="menu_now" data-ajax="false">授信</a></td>
+                    <td class="menu_br"><a href="loan.html" data-ajax="false">借款</a></td>
+                    <td class="menu_msg"><a href="new_credit.html" data-ajax="false">消息</a></td>
+                </tr>
+            </table>
+		</div>
+    </div>
+    <div class="adjust_box">
+        <div class="adjust_top">
+            <table  border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td class="credit_name"></td>
+                  <td class="credit_quota">我的剩余额度<span class="credit_money">295,000</span><span class="credit_unit">元</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="adjust_center">
+        	<table class="adjust_center_tab" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                <tr>
+                    <td id="m_text_0" width="70px">0元</td>
+                    <td id="m_text_1" width="106px"><div class="credit_relation">认识</div>500元</td>
+                    <td id="m_text_2" width="106px"><div class="credit_relation">一般</div>2,000元</td>
+                    <td id="m_text_3" class="money_select" width="106px"><div class="credit_relation">熟人</div>5,000元</td>
+                    <td id="m_text_4"  width="106px"><div class="credit_relation">很熟</div>10,000元</td>
+                    <td id="m_text_5" width="80px"><div class="credit_relation">信任</div>30,000元</td>
+                </tr>
+                <tr>
+                    <td colspan="6" class="c_m_btn_td" headers="152px" style="position:relative;">
+                    	<div class="c_m_btn">
+                            <a id="m_btn_0"></a>
+                            <a id="m_btn_1"></a>
+                            <a id="m_btn_2"></a>
+                            <a id="m_btn_3" class="btn_now"></a>
+                            <a id="m_btn_4"></a>
+                            <a id="m_btn_5"></a>
+                       	</div>
+                        <div class="line_down"></div>
+                        <div class="line_up"></div>
+                        <input type="hidden" id="u_cid" value="">
+					</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <table  border="0" cellspacing="0" cellpadding="0" class="adjust_bottom">
+            <tr>
+              <td ><img src="images/cancel.png" class="adjust_close"></td>
+              <td ><img src="images/check.png" class="adjust_true" onClick="creditinfo.DoCredit();"></td>
+            </tr>
+        </table>
+	</div>
+</body>
+</html>

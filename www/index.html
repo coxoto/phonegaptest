@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=640px, user-scalable=no" />
+<title>个人中心</title>
+<link rel="stylesheet" href="css/jquerymobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/common.js"></script>
+
+</head>
+<body data-role="page">
+	<script src="js/personal_center.js"></script>
+	<link rel="stylesheet" href="css/personal_center.css">
+    <div class="set_center">
+    	<table border="0" cellspacing="0" cellpadding="0" class="set_table_top">
+            <tr>
+                <td width="96"><img src="images/default.png" class="set_phead"></td>
+                <td id="set_u_name"></td>
+            </tr>
+        </table>
+        <a href="">
+		<table border="0" cellspacing="0" cellpadding="0" class="set_table_middle">
+            <tr>
+                <td>银行卡管理</td>
+                <td></td>
+                <td class="p_next"></td>
+            </tr>
+		</table>
+        </a>
+        <a href="">
+        <table border="0" cellspacing="0" cellpadding="0" class="set_table_middle">
+            <tr>
+                <td>密码管理</td>
+                <td></td>
+                <td class="p_next"></td>
+            </tr>
+		</table>
+        </a>
+        <a href="">
+        <table border="0" cellspacing="0" cellpadding="0" class="set_table_middle">
+            <tr>
+                <td>意见反馈</td>
+                <td></td>
+                <td class="p_next"></td>
+            </tr>
+		</table>
+        </a>
+        <a href="">
+        <table border="0" cellspacing="0" cellpadding="0" class="set_table_middle">            
+            <tr>
+                <td>邀请朋友</td>
+                <td></td>
+                <td class="p_next"></td>
+            </tr>
+		</table> 
+        </a>
+        <a href="">
+        <table border="0" cellspacing="0" cellpadding="0" class="set_table_middle">          
+            <tr>
+                <td>给个好评</td>
+                <td></td>
+                <td class="p_next"></td>
+            </tr>
+		</table> 
+        </a>
+        <a href="">
+        <table border="0" cellspacing="0" cellpadding="0" class="set_table_middle">                
+            <tr>
+                <td>关于友钱</td>
+                <td></td>
+                <td class="p_next"></td>
+            </tr>
+        </table> 
+        </a>
+        <a href="">
+        <table border="0" cellspacing="0" cellpadding="0" class="set_table_middle">     
+            <tr>
+                <td>清理缓存</td>
+                <td class="clear_cache">3.1MB</td>
+                <td class="p_next"></td>
+            </tr>
+        </table>
+        </a>
+        <a class="set_bottom" href="">退出账户</a>
+    </div>
+    <div class="center_middle"> 
+        <div class="site_top">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><img src="images/config.png" class="set_btn"></td>
+                    <td class="st_title">
+                    </td>
+                    <td class="st_share"><img src="images/share.png" class="share_btn"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="main credit_body">
+            <div class="p_top_box">
+                <div class="p_avatar">
+                    <div class="avatar_img"><img src="images/default.png" /></div>
+                </div>
+                <div class="p_text">
+                    已被<span class="p_num" id="credit_p_num">0</span>位朋友授信<span class="p_num" id="credit_all_money">0</span>元
+                </div>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="p_rank_btn">
+                    <tr>
+                        <td class="config_td"><a class="credit_ranking" href="">授信排名</a></td>
+                        <td class="share_td"><a href="">排名第25位></a></td>
+                    </tr>
+                </table>
+                <img class="pc_bj" src="images/bg.jpg">
+            </div>
+            <div class="p_center_box">
+                <div class="p_chart">
+                	<div class="empty_share">
+                    	<div class="index_credit"></div>
+                        <div class="empty_share_btn">邀请朋友对你授信</div>
+                    </div>
+                    <div class="p_chart_list dis_none"  >
+                        <div class="pcl_top">
+                            <table width="20%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <div class="support_num" id="credit_5">0人</div>  
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <div class="support_chart"></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="20%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <div class="support_num" id="credit_20">0人</div>
+                                        
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <div class="support_chart"></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="20%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <div class="support_num" id="credit_50">0人</div>
+                                        
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <div class="support_chart"></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="20%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <div class="support_num" id="credit_100">0人</div>
+                                        
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <div class="support_chart"></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="20%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <div class="support_num" id="credit_300">0人</div>
+                                        
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <div class="support_chart"></div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="pcl_money">
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>5百元</td>
+                                    <td>2千元</td>
+                                    <td>5千元</td>
+                                    <td>1万元</td>
+                                    <td>3万元</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="p_state">
+                    <div class="p_borrow">
+                    <a href="" onClick="changepage('jr_list.html','slide','');">
+                        <table cellpadding="0" cellspacing="0" class="p_center_table">
+                            <tr>
+                                <td class="p_state_title">借入</td>
+                                <td class="p_state_num" id="money_in_num">0</td>
+                            </tr>
+                        </table>
+                    </a>
+                    </div>
+                    <div class="p_lend">
+                    <a href="jc_list.html" onClick="changepage('jc_list.html','slide','');">
+                        <table cellpadding="0" cellspacing="0" class="p_center_table">
+                            <tr>
+                                <td class="p_state_title">借出</td>
+                                <td class="p_state_num" id="money_out_num">0</td>
+                            </tr>
+                        </table>
+                    </a>
+                    </div>
+                    <div class="p_invite">
+                    <a href="" onClick="changepage('jc_list.html','slide','');">
+                        <table cellpadding="0" cellspacing="0" class="p_center_table">
+                            <tr>
+                                <td class="p_state_title">邀约</td>
+                                <td class="p_state_num" id="collect_num">0</td>
+                            </tr>
+                        </table>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_menu ">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="menu_me"><a href="index.html" class="menu_now" data-ajax="false">我</a></td>
+                    <td class="menu_cd"><a href="credit.html" data-ajax="false">授信</a></td>
+                    <td class="menu_br"><a href="loan.html" data-ajax="false">借款</a></td>
+                    <td class="menu_msg"><a href="new_credit.html" data-ajax="false">消息</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="share_center">
+    	<div class="share_top">
+        	<table cellpadding="0" cellspacing="0" width="100%" >
+            	<tr >
+                	<td width="19.75%" height="110px"><img src="images/wechat.png"></td>
+                    <td width="7%"></td>
+                    <td width="19.75%"><img src="images/group.png"></td>
+                    <td width="7%"></td>
+                    <td width="19.75%"><img src="images/weibo.png"></td>
+                    <td width="7%"></td>
+                    <td width="19.75%"><img src="images/f_message.png"></td>
+                </tr>
+                <tr >
+                	<td height="48px">微信好友</td>
+                    <td></td>
+                    <td>朋友圈</td>
+                    <td></td>
+                    <td>微博</td>
+                    <td></td>
+                    <td>短信</td>
+                </tr>
+            </table>
+        </div>
+        <div class="share_bottom"></div>
+    </div>
+</body>
+</html>

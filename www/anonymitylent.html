@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>匿名借出</title>
+<link rel="stylesheet" href="css/jquerymobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/anonymitylent.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/anonymitylent.js"></script>
+</head>
+
+<body>
+<div class="site_top">
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="st_goback"><a href="">返回</a></td>
+            <td class="st_title">匿名借出</td>
+            <td class="st_share"></td>
+        </tr>
+    </table>
+</div>
+<div class="main credit_body">
+<form>
+    <div class="lent_title">借出金额</div>
+    <div class="lent_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td><input type="text" data-role="none" class="lent_input" placeholder="不得超过你对其授信额度5000元"></td>
+                <td class="lent_money_yuan">元</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="lent_title">选择银行卡</div>
+    <div class="lent_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="selectblank_table">
+            <tbody>
+            <tr>
+                <td>
+                	<span class="select_blank">招商银行借记卡（尾号6035)</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="bank_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td class="bank_td">
+                	<div class="hide_blank">招商银行借记卡（尾号6035)</div>   
+                </td>
+            </tr>
+            <tr>
+                <td class="bank_td">
+                	<div class="hide_blank">民生银行借记卡（尾号6332)</div>   
+                </td>
+            </tr>
+            <tr>
+                <td class="bank_td">
+                	<div class="hide_blank">中国人民银行借记卡（尾号6311)</div>   
+                </td>
+            </tr>
+            <tr>
+                <td class="add_blank">
+                	<a class="add_blank_a" href="addbank.html"  data-transition="slide"></a> 
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="lent_title">预计到期应收本息</div>
+    <div class="lent_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td><span class="predict_noney">3030.00</span></td>
+                <td class="lent_money_yuan">元</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>   
+    <div class="agree_bottom">
+    	<table border="0" cellspacing="0" cellpadding="0" class="agreen_text ">
+            <tr>
+                <td class="agreen_img unagreen_icon"></td>
+                <td >同意<a class="c_00a2ff" href="">《借款协议》</a>和<a class="c_00a2ff" href="">《借款人协议》</a></td>
+            </tr>
+        </table>
+        <div class="lent_btn">借出</div>
+	</div>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个人中心</title>
+<link rel="stylesheet" href="css/jquerymobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/common.js"></script>
+
+</head>
+<body>
+	<div class="mb_box"></div>
+	<script src="js/personal_credit.js"></script>
+	<link rel="stylesheet" href="css/personal_credit.css">
+    <div class="center_middle"> 
+        <div class="site_top">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="st_goback"><a href="" data-ajax="false" onClick="changepage('credit.html','slide','true');">返回</a></td>
+                    <td class="st_title">
+                    </td>
+                    <td class="st_share">邀请</td>
+                </tr>
+            </table>
+        </div>
+        <div class="main pc_credit_body">
+            <div class="p_top_box">
+                <div class="p_avatar">
+                    <div class="avatar_img"><img src="images/default.png" /></div>
+                </div>
+                <div class="p_text">
+                    <span class="friend_name" id="pc_truename"></span><br/>
+                    <span id="pc_phone"></span>
+                </div>
+                <div class="list_my">我对TA的授信 <span id="pc_credit_money">0</span>元</div>
+                <div class="list_ta">TA的平均授信 <span id="pc_creditmoney_avg">0</span>元</div>
+                <div class="list_all">
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                TA已被<span class="credit_numcolor" id="pc_creditpeople_count">11</span>位朋友授信<span class="credit_numcolor" id="pc_creditmoney_sum">50,000</span>元
+                            </td>
+                            <td class="c_listbox"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="list_credit">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="credit_num_left">授信500元</td>
+                            <td class="credit_num_right"><span id="credit_500">0</span>人</td>
+                        </tr>
+                        <tr>
+                            <td class="credit_num_left">授信2,000元</td>
+                            <td class="credit_num_right"><span id="credit_2000">0</span>人</td>
+                        </tr>
+                        <tr>
+                            <td class="credit_num_left">授信5,000元</td>
+                            <td class="credit_num_right"><span id="credit_5000">0</span>人</td>
+                        </tr>
+                        <tr>
+                            <td class="credit_num_left">授信10,000元</td>
+                            <td class="credit_num_right"><span id="credit_10000">0</span>人</td>
+                        </tr>
+                        <tr>
+                            <td class="credit_num_left">授信30,000元</td>
+                            <td class="credit_num_right"><span id="credit_30000">0</span>人</td>
+                        </tr>
+                    </table>
+                </div>
+                 <div class="pc_adjust_btn">
+                    <div class="pc_adjust_quota">调整授信额度</div>
+                </div>
+                <img class="pc_bj" src="images/bg.jpg">
+            </div> 
+        </div>
+        
+    </div>
+    <div class="pc_adjust_box">
+            <div class="pc_adjust_top">
+                <table  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td class="credit_name"></td>
+                      <td class="credit_quota">我的剩余额度<span class="credit_money">295,000</span><span class="credit_unit">元</span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pc_adjust_center">
+                <table class="pc_adjust_center_tab" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <tr>
+                        <td id="pc_m_text_0" width="70px">0元</td>
+                        <td id="pc_m_text_1" width="106px"><div class="credit_relation">认识</div>500元</td>
+                        <td id="pc_m_text_2" width="106px"><div class="credit_relation">一般</div>2,000元</td>
+                        <td id="pc_m_text_3" class="pc_money_select" width="106px"><div class="credit_relation">熟人</div>5,000元</td>
+                        <td id="pc_m_text_4"  width="106px"><div class="credit_relation">很熟</div>10,000元</td>
+                        <td id="pc_m_text_5" width="86px"><div class="credit_relation">信任</div>30,000元</td>
+                    </tr>
+                    <tr>
+                    <td colspan="6" class="c_m_btn_td" headers="152px" style="position:relative;">
+                    	<div class="pc_c_m_btn">
+                            <a id="pc_m_btn_0"></a>
+                            <a id="pc_m_btn_1"></a>
+                            <a id="pc_m_btn_2"></a>
+                            <a id="pc_m_btn_3" class="pc_btn_now"></a>
+                            <a id="pc_m_btn_4"></a>
+                            <a id="pc_m_btn_5"></a>
+                       	</div>
+                        <div class="pc_line_down"></div>
+                        <div class="pc_line_up"></div>
+                        <input type="hidden" id="pc_u_cid" value="">
+					</td>
+                	</tr>
+                    </tbody>
+                </table>
+            </div>
+            <table  border="0" cellspacing="0" cellpadding="0" class="pc_adjust_bottom">
+                <tr>
+                  <td ><img src="images/cancel.png" class="pc_adjust_close"></td>
+                  <td ><img src="images/check.png" onClick="pc_DoCredit();" class="pc_adjust_true"></td>
+                </tr>
+            </table>
+            
+		</div>
+    <div class="invit_center">
+            <div class="invit_top">
+                <table cellpadding="0" cellspacing="0" width="100%" >
+                    <tr >
+                        <td width="19.75%" height="110px"><img src="images/wechat.png"></td>
+                        <td width="7%"></td>
+                        <td width="19.75%"><img src="images/group.png"></td>
+                        <td width="7%"></td>
+                        <td width="19.75%"><img src="images/weibo.png"></td>
+                        <td width="7%"></td>
+                        <td width="19.75%"><img src="images/f_message.png"></td>
+                    </tr>
+                    <tr >
+                        <td height="48px">微信好友</td>
+                        <td></td>
+                        <td>朋友圈</td>
+                        <td></td>
+                        <td>微博</td>
+                        <td></td>
+                        <td>短信</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="invit_bottom"></div>
+    	</div>
+        
+</body>
+</html>

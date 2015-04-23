@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body{ position:relative;}
+img{ margin:0; padding:0;}
+.dis_none { display:none;}
+.site_top{ background:none; position:absolute;}
+.credit_body{ padding-top:128px; padding-bottom:98px;}
+.p_avatar{ width:100%; padding-top:32px;}
+.pc_bj{ width:100%;  position:absolute; top:0; left:0; z-index:-10; }
+.avatar_img{ width:170px; height:170px; border-radius:50%; background:rgba(255,255,255,0.4); margin:0 auto; text-align:center;}
+.avatar_img img{ border-radius:50%;height: 150px;margin-top: 10px;width: 150px;}
+.p_text{ width:90.625%; color:#fff; text-align:center; border-bottom:1px dashed rgba(255,255,255,0.7); margin:0 auto; height:230px; line-height:230px;}
+.p_num{ font-size:38px; padding:0 8px;}
+.credit_ranking{ padding-left:44px; background:url(../images/ranking.png) no-repeat left center; font-size:24px; color:rgba(255,255,255,0.7);}
+.share_td{color:rgba(255,255,255,0.7);}
+.p_rank_btn{width:90.625%; margin:0px auto; line-height:79px;}
+.share_td{ text-align:right;}
+.share_td a:visited{ color:rgba(255,255,255,0.7);}
+.p_center_box{ overflow:hidden;}
+.p_chart{width:67%; height:398px; background:#313441; float:left;}
+.p_state{width:33%; float:right;}
+.p_borrow{ background:#33cafa; width:76.22%; height:132px; padding:0 14.28% 0 9.5%;}
+.p_lend{background:#189fca;  width:76.22%;  height:132px;padding:0 14.28% 0 9.5%;}
+.p_invite{ background:#3a436a; height:134px; padding:0 14.28% 0 9.5%; width:76.22%; }
+.p_center_table{ width:100%; height:100%; text-align:center; vertical-align:middle; color:#fff;}
+.p_state_title{font-size:26px; text-align:left;}
+.p_state_num{font-size:50px; text-align:right; font-weight:300;}
+.p_chart_list{ width:86%; margin:0 auto; padding-bottom:24px; height:374px;}
+.empty_share{  width:86%; margin:0 auto; height:358px; padding:20px 0;}
+.index_credit{ background:url(../images/index_credit.png) no-repeat center center; width:100%; height:242px;}
+.empty_share_btn{ width:350px; height:76px; border-radius:6px; background:#00a2ff; color:#fff; font-size:26px; text-align:center; line-height:76px; margin:0 auto;}
+.pcl_top{ height:326px; width:100%;}
+.pcl_top table{ float:left; height:100%;}
+.pcl_top table td{ vertical-align:bottom;}
+.pcl_money table{ font-size:20px; color:#fff; text-align:center; width:100%; height:48px; vertical-align:middle;}
+.support_chart{ background: url(../images/chart_bj.png) repeat-x center bottom; width:18px; height:12px; border-radius:6px; margin:0 auto;}
+.support_num{ background:url(../images/support_num_d.png) no-repeat center center; width:66px; height:35px; font-size:20px; color:#fff; text-align:center; line-height:28px; margin:0 auto;}
+.support_num_d{ background:url(../images/support_num.png) no-repeat center center; width:66px; height:35px; font-size:20px; color:#fff; text-align:center; line-height:28px; margin:0 auto;}
+
+.set_center{ display:none;width:460px; min-height:867px;background:#262630; padding-top:40px; position:absolute;left:-460px; top:0px; z-index:20;}
+.set_table_top{ width:430px; margin-left:30px; border-bottom:1px solid #373a46; font-size:30px; font-family:'Helvetica Light','微软雅黑'; color:#fff; height:106px; vertical-align:middle; width:430px;}
+.set_phead{ width:66px; height:66px; border-radius:50%;}
+.set_table_middle{ width:400px; margin:0 auto; font-size:26px; color:#fff; text-align:left; vertical-align:middle;height:90px;}
+.p_next{ width:14px; background:url(../images/p_next.png) no-repeat center center;}
+.clear_cache{ font-size:22px; color:#a0a0a0; width:80px; text-align:left;} 
+.set_bottom{ width:430px; margin-left:30px; font-size:26px; color:#00a2ff; line-height:90px; height:90px; border-top:1px solid #373a46; text-align:center; display:inline-table;}
+.center_middle{ position:absolute; left:0 ;top:0; width:100%;}
+.share_center{ width:100%; height:370px; background:rgba(48,48,48,0.85); position:absolute;bottom:-370px; left:0; z-index:20; display:none;}
+.share_top{width:87.5%; margin:0 auto; height:210px; padding-top:80px;}
+.share_top table{ font-size:24px; color:#fff; text-align:center; vertical-align:middle; }
+.share_bottom{ width:100%; height:80px; background:url(../images/cancel.png) no-repeat center center rgba(48,48,48,0.85);}
+.blur {	
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    -webkit-filter: blur(8px); /* Chrome, Opera */
+       -moz-filter: blur(8px);
+        -ms-filter: blur(8px);    
+            filter: blur(8px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=8, MakeShadow=false); /* IE6~IE9 */
+}

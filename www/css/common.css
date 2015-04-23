@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{font-family:Helvetica,'华文细黑','微软雅黑'; margin:0; padding:0; font-size:26px; color:#505566;}
+a{ cursor:pointer; text-decoration:none;}
+
+.main{ width:100%; height:100%;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{ color:rgba(80,85,102,0.3); font-size:26px;font-family:Helvetica,'华文细黑','微软雅黑';}
+input:-moz-placeholder, textarea:-moz-placeholder { color:rgba(80,85,102,0.3); font-size:26px;font-family:Helvetica,'华文细黑','微软雅黑'; }
+input::-moz-placeholder, textarea::-moz-placeholder { color:rgba(80,85,102,0.3); font-size:26px;font-family:Helvetica,'华文细黑','微软雅黑';}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { color:rgba(80,85,102,0.3); font-size:26px;font-family:Helvetica,'华文细黑','微软雅黑';}
+
+/** 顶部 **/
+.site_top{ height:88px; background:#25272f; padding-top:40px; color:#FFF; position:fixed; z-index:10; width:100%;}
+.site_top a{ color:#FFF; text-decoration:none;}
+.site_top table{ width:95%; margin:0 auto; height:100%;}
+.site_top table td.st_goback{ width:15%; text-align:left;}
+.site_top table td.st_goback a{ background:url(../images/goback.png) no-repeat left; padding-left:25px; font-size:30px;}
+.site_top table td.st_title{ width:70%; text-align:center; font-size:32px;}
+.site_top table td.st_share{ width:15%; text-align:right;}
+
+
+/* footer */
+.bottom_menu{ width:100%; height:97px; border:none; border-top:1px solid #d8d8d8; position:fixed; bottom:0; background:#f8f8f8; z-index:10;}
+.bottom_menu table{ width:100%; height:100%;}
+.bottom_menu table td{ width:25%; text-align:center; font-size:18px; vertical-align:top; line-height:18px;}
+.bottom_menu table td a{ display:inline-table; width:100%; color:#768292; text-decoration:none; margin-top:15px; padding-top:58px;}
+.bottom_menu table td a:hover{ color:#00a2ff;}
+.bottom_menu td.menu_me a{ background:url(../images/me.png) no-repeat center top;}
+.bottom_menu td.menu_me a:hover{background:url(../images/me_on.png) no-repeat center top;}
+.bottom_menu td.menu_cd a{ background:url(../images/credit.png) no-repeat center top;}
+.bottom_menu td.menu_cd a:hover{ background:url(../images/credit_on.png) no-repeat center top;}
+.bottom_menu td.menu_br a{ background:url(../images/borrow.png) no-repeat center top;}
+.bottom_menu td.menu_br a:hover{ background:url(../images/borrow_on.png) no-repeat center top;}
+.bottom_menu td.menu_msg a{ background:url(../images/message.png) no-repeat center top;}
+.bottom_menu td.menu_msg a:hover{ background:url(../images/message_on.png) no-repeat center top;}
+.bottom_menu td a.menu_now{ color:#00a2ff;}
+.bottom_menu td.menu_me a.menu_now{background:url(../images/me_on.png) no-repeat center top;}
+.bottom_menu td.menu_cd a.menu_now{ background:url(../images/credit_on.png) no-repeat center top;}
+.bottom_menu td.menu_br a.menu_now{ background:url(../images/borrow_on.png) no-repeat center top;}
+.bottom_menu td.menu_msg a.menu_now{ background:url(../images/message_on.png) no-repeat center top;}
+

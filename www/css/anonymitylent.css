@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.site_top{ top:0px; left:0;}
+
+.main{ background:none;}
+.credit_body{ padding-top:128px; background:#efeff6;}
+input{ margin:0;padding:0;}
+.c_00a2ff{ color:#00a2ff;}
+
+.lent_title{color:#768292; font-size:26px; text-align:center; padding:38px 0 14px 0; line-height:26px;}
+.lent_box{width:90.62%; margin:0 auto; background:#fff; height:90px; border-radius:8px; box-shadow:1px 3px 3px #d7d7dd;}
+.lent_box table{ width:100%;}
+.lent_input{ width:90%; margin-left:5.6%; color:#505566; font-size:26px; line-height:90px; height:90px; border:none;}
+.lent_money_yuan{ width:16.2%; text-align:center; vertical-align:middle;}
+.predict_noney{ width:90%; margin-left:5.6%; color:#505566; font-size:26px; line-height:90px; height:90px; display:block;}
+.select_blank{font-size:26px;line-height:90px; height:90px; color:#505566;margin-left:5.6%; padding-right:28px; background:url(../images/select_blank.png) right center no-repeat; display:inline-table;}
+.bank_box{width:90.62%; margin:0 auto; background:url(../images/bank_sj.png) no-repeat top center;  margin-top:10px; padding-top:10px; display:none;}
+.bank_box table{ background:#fff; border-radius:8px;box-shadow:1px 3px 3px #d7d7dd;}
+.bank_td{padding:0 5.6%;}
+.hide_blank{font-size:26px;line-height:89px; height:89px;color:#bfbfbf; border-bottom:1px solid #bfbfbf;}
+.add_blank{ height:90px; text-align:center; vertical-align:middle;}
+.add_blank_a{ display:block; height:100%; width:100%; background:url(../images/add_bank.png) no-repeat center center;}
+.agree_bottom{bottom:0; left:0; width:100%;background:#efeff6; margin-top:284px; padding-bottom:40px;}
+.agreen_text{ margin: 0 auto;line-height:104px; width:522px; color:#768292;} 
+.lent_btn{ color:#fff;width:90.62%; margin:0 auto; background:#00a2ff; border-radius:8px; text-align:center; height:80px; line-height:80px;}
+.unagreen_icon{ background:url(../images/unagreen_icon.png) no-repeat center center; }
+.agreen_icon{ background:url(../images/agreen_icon.png) no-repeat center center; }
+.agreen_img{ width:80px; height:64px; }

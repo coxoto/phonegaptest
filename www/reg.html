@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户注册</title>
+<link rel="stylesheet" href="css/jquerymobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/member.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+	<div class="main">
+<link rel="stylesheet" href="css/common.css">
+<script src="js/member.js"></script>
+		<div class="top_avatar">
+        	<div class="avatar_img"><img src="images/default.png" /></div>
+        </div>
+        <div class="middle_form">
+        	<form action="" method="post">
+            	<table cellpadding="0" cellspacing="0" class="tab_input">
+                	<tr>
+                    	<td class="td1">手机号</td>
+                        <td class="td2"><input type="tel" name="mobile" id="mobile" value="" placeholder="请输入手机号" /></td>
+                        <td class="td3"></td>
+                    </tr>
+				</table>
+                <table cellpadding="0" cellspacing="0" class="tab_input">
+                    <tr>
+                    	<td class="td1">密码</td>
+                        <td class="td2">
+                        	<input type="password" name="mobile" value="" id="passwd" placeholder="建议6位以上数字和字母组合" />
+	                        <input type="type" name="mobile" value="" id="passwd2" placeholder="建议6位以上数字和字母组合" />
+                        </td>
+                        <td class="td3"><a class="seepw"></a></td>
+                    </tr>
+				</table>
+				<table cellpadding="0" cellspacing="0" class="tab_input">
+                    <tr>
+                    	<td class="td1">验证码</td>
+                        <td class="td2"><input type="text" name="mobile" value="" placeholder="请输入验证码" /></td>
+                        <td class="td3"><a class="getcode">获取</a></td>
+                    </tr>
+                </table>
+                <table cellpadding="0" cellspacing="0" class="tab_btn">
+                	<tr>
+                    	<td colspan="2" class="service">当点击注册，表示已阅读并同意 <a href="">服务条款</a></td>
+                    </tr>
+                    <tr>
+                    	<td colspan="2"><a class="form_btn" onClick="member.register()" id="reg_btn">注册</a></td>
+                    </tr>
+                    <tr>
+                    	<td class="btn_left"><a href="login.html" >已有账户</a></td>
+                        <td class="btn_right"><a href="reset.html" >忘记密码</a></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

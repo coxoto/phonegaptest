@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+.jc_middle{ background:none; padding-top:128px;}
+.jr_middle{ background:none; padding-top:128px;}
+.br_detail_body{ padding-bottom:98px; background:#EFF0F5;padding-top:128px;}
+
+/** 顶部 **/
+.site_top{ height:88px; background:#25272f; padding-top:40px; color:#FFF; position:fixed; z-index:10; width:100%; top:0;}
+.site_top a{ color:#FFF; text-decoration:none;}
+.site_top table{ width:95%; margin:0 auto; height:100%;}
+.site_top table td.st_goback{ width:15%; text-align:left;}
+.site_top table td.st_goback a{ background:url(../images/goback.png) no-repeat left; padding-left:25px; font-size:30px;}
+.site_top table td.st_title{ width:70%; text-align:center; font-size:32px;}
+.site_top table td.st_share{ width:15%; text-align:right;}
+
+.borrow_menu{ width:100%; height:76px; background:#f8f8f8; border-bottom:1px solid #d8d8d8;}
+.borrow_menu table{ width:100%; height:100%;}
+.borrow_menu table td{ text-align:center; font-size:30px;}
+.borrow_menu table td a{ display:inline-table; color:#bfbfbf; text-decoration:none; padding:0 10px; height:76px; line-height:76px;}
+.borrow_menu table td a.br_m_now{ color:#505566; height:66px; line-height:66px; border-top:5px solid #f8f8f8; border-bottom:5px solid #00a2ff;}
+
+.br_list{ width:100%; height:auto; display:none;}
+.br_list .br_item{ width:100%; border-bottom:1px solid #d8d8d8; height:auto; padding:19px 0; height:112px;}
+.br_list table{ width:90.6%; margin:0 auto;}
+.br_list table td{ line-height:56px;}
+.br_list td.list_td_title{ width:21%; text-align:left; color:#a0a0a0;}
+.br_list td.list_td_title2{width:21%; text-align:right; color:#a0a0a0;}
+.br_list td.list_td_num{ text-align:right;}
+.br_list td.list_td_num span{ display:inline-table; height:42px; padding:0 10px; min-width:160px; line-height:42px; text-align:center; background:#EB3331; color:#FFF; border-radius:6px;}
+.br_list td.list_td_money{ width:33%; text-align:left;}
+.br_list td.list_td_money span{ font-size:20px;}
+.br_list td.list_td_money_r{ width:33%; text-align:right;}
+.br_list td.list_td_money_r span{ font-size:20px;}
+.br_list td.list_td_date{ width:25%; text-align:right;}
+.br_list td.list_td_month{ width:14%; text-align:right;}
+.br_c_will td.list_td_money, .br_c_wait td.list_td_money, .br_c_doing td.list_td_money, .br_c_over td.list_td_money{ width:44%;}
+
+.br_r_out{ display:block;}
+.br_rwait td.list_td_num span{ background:#46bb64;}
+.br_r_doing td.list_td_num span{ background:#46bb64;}
+.br_r_over{}
+
+.br_c_will{ display:block;}
+.br_c_will td.list_td_num span{background:#46bb64;}
+.br_c_wait td.list_td_num span{ background:#46bb64;}
+.br_c_over td.list_td_num span{ background:#46bb64;}
+
+.br_detail{ width:100%; height:auto; border-top:1px solid #d8d8d8; border-bottom:1px solid #d8d8d8; margin-bottom:40px; background:#FFF;}
+.br_detail table{ width:95.3%; margin-left:4.7%;}
+.br_detail table td{ border-top:1px solid #d8d8d8; text-align:left; height:90px;}
+.br_detail table td.br_d_first{ border-top:none;}
+.br_detail table td.br_d_title{ width:22%; color:#a0a0a0; padding-right:4%; text-align:center;}
+.br_detail table td.br_d_info{ width:74%;}
+
+.br_d_btn{ width:100%; position:fixed; z-index:10; bottom:0; height:98px; background:#f8f8f8; border-top:1px solid #d8d8d8;}
+.br_d_btn a{ display:table; width:75%; height:78px; line-height:78px; border-radius:8px; background:#00a2ff; color:#FFF; margin:10px auto; text-decoration:none; text-align:center;}
+

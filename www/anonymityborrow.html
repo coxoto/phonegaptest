@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>匿名借入</title>
+<link rel="stylesheet" href="css/jquerymobile/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<div data-role="page">
+<link rel="stylesheet" href="css/anonymityborrow.css">
+<script src="js/anonymityborrow.js"></script>
+<div class="site_top">
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="st_goback"><a href="" onClick="changepage('loan.html','slide','true');" data-ajax="false">返回</a></td>
+            <td class="st_title">匿名借入</td>
+            <td class="st_share"></td>
+        </tr>
+    </table>
+</div>
+<div class="main credit_body">
+<form>
+    <div class="lent_title">借款金额</div>
+    <div class="lent_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td><input type="text" data-role="none" class="lent_input" id="ab_money" placeholder="请输入借款金额"></td>
+                <td class="lent_money_yuan">元</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <div class="lent_title">借款期限</div>
+        <div class="borrow_time">
+            <div class="borrow_fixwidth">
+                <table  border="0" cellspacing="0" cellpadding="0" class="borrow_mouth">
+                    <tr>
+                        <td class="mouth_on text_left" width="126px">1个月</td>
+                        <td class="mouth_off text_center" width="126px">3个月</td>
+                        <td class="mouth_off text_right" width="126px">6个月</td>
+                    </tr>
+                </table>
+                <input id="qx_value" value="1" type="hidden">
+                <div class="time_canvas" id="time_canvas">
+                <!--<img src="images/swipe_btn.png" class="move_btn" id="swipe1">--> 
+                    <!--<input type="range" name="points" id="points" value="1" min="1" max="60" >-->
+                    <div class="slide_circle"></div>
+                    <div class="mouth_1"></div>
+                    <div class="mouth_3"></div>
+                    <div class="mouth_6"></div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="lent_title">年华利息</div>
+        <div class="borrow_time">
+            <div class="borrow_fixwidth">
+                <table  border="0" cellspacing="0" cellpadding="0" class="borrow_mouth">
+                    <tr>
+                        <td class="mouth_on text_left" width="126px">8%</td>
+                        <td class="mouth_off text_center" width="126px">10%</td>
+                        <td class="mouth_off text_right" width="126px">12%</td>
+                    </tr>
+                </table>
+                 <input id="lx_value" value="8%" type="hidden">
+                <div class="time_canvas" id="int_canvas">
+                <!--<img src="images/swipe_btn.png" class="move_btn" id="swipe1">--> 
+                    <!--<input type="range" name="points_int" id="points_int" value="1" min="1" max="60" >-->
+                    <div class="slide_circle"></div>
+                    <div class="mouth_1"></div>
+                    <div class="mouth_3"></div>
+                    <div class="mouth_6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    	<div class="lent_title">添加银行卡</div>
+        <div class="lent_box">
+        <a class="add_blank_a" href="addbank.html"  data-transition="slide"></a>
+        </div>
+    </div>
+    <div  class="dis_none">
+        <div class="lent_title">选择银行卡</div>
+        <div class="lent_box">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="selectblank_table">
+                <tbody>
+                <tr>
+                    <td>
+                        <span class="select_blank">招商银行借记卡（尾号6035)</span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="bank_box">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="bank_td">
+                        <div class="hide_blank">招商银行借记卡（尾号6035)</div>   
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bank_td">
+                        <div class="hide_blank">民生银行借记卡（尾号6332)</div>   
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bank_td">
+                        <div class="hide_blank">中国人民银行借记卡（尾号6311)</div>   
+                    </td>
+                </tr>
+                <tr>
+                    <td class="add_blank">
+                        <a class="add_blank_a" href="addbank.html"  data-transition="slide"></a> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="bank_tip">*所借款项将在筹款成功后打入该银行卡</div>
+    <div class="lent_title">预计到期还款金额</div>
+    <div class="lent_box">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td><span class="predict_noney">3030.00</span></td>
+                <td class="lent_money_yuan">元</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>   
+    <div class="agree_bottom">
+    	<div class="agreen_tip">将收取本金1%作为服务费，您将实收99.00元</div>
+        <table border="0" cellspacing="0" cellpadding="0" class="agreen_clause ">
+            <tr>
+                <td class="agreen_img unagreen_icon"></td>
+                <td >同意<a class="c_00a2ff" href="">《借款协议》</a>和<a class="c_00a2ff" href="">《借款人协议》</a></td>
+            </tr>
+        </table>
+        <input  type="checkbox" id="clause_cbox"  style="visibility:hidden">
+        <div class="lent_btn" onClick="borrowinfo.test();">发送邀约</div>
+	</div>
+</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/** 顶部 **/
+.site_top{ height:88px; background:#25272f; padding-top:40px; color:#FFF; position:fixed; z-index:10; width:100%; top:0;}
+.site_top a{ color:#FFF; text-decoration:none;}
+.site_top table{ width:95%; margin:0 auto; height:100%;}
+.site_top table td.st_goback{ width:15%; text-align:left;}
+.site_top table td.st_goback a{ background:url(../images/goback.png) no-repeat left; padding-left:25px; font-size:30px;}
+.site_top table td.st_title{ width:70%; text-align:center; font-size:32px;}
+.site_top table td.st_share{ width:15%; text-align:right;}
+
+/* CSS Document */
+.switch_btn{ width:356px; height:54px; border-radius:6px; margin:0 auto; background:#fff; padding:2px;}
+.switch_btn .switch_on{ background:#25272f; width:178px; height:54px; border-radius:6px; color:#fff;  font-size:30px; float:left;line-height:50px; position:relative;}
+.switch_btn .switch_off{ font-size:30px; color:#a0a0a0; display:inline-table;width:178px; height:54px;float:left; line-height:50px;position:relative;}
+.new_circle{ display:block; width:12px; height:12px; border-radius:50%; background:#ea3331; position:absolute; top:10px; right:52px;}
+.bottom_menu td.menu_msg a.menu_now_red{ background:url(../images/message_on_red.png) no-repeat center top;}
+.credit_body{ background:#e0e0ed;padding-top:128px;}
+.new_credit{ padding:0 2.5% 0 4.68%; background:#fff; border-bottom:1px solid #d8d8d8;}
+.credit_list{ padding:23px 0; border-bottom:1px solid #d8d8d8;}
+.credit_1{ font-size:22px; color:#bfbfbf; line-height:22px; height:22px;}
+.credit_2{ font-size:26px; color:#505566; line-height:56px;}
+.credit_list_td1{ width:83.8%}
+.credit_list_td2{ width:16.2%; text-align:right;}
+.credit_list_td3{vertical-align:middle;}
+.cancel_btn{ display:none;}
+.bottom_del{ width:100%; height:97px; border:none; border-top:1px solid #d8d8d8; position:fixed; bottom:0; background:#f8f8f8; z-index:10; display:none;}
+.bottom_del table{ width:90.625%; margin:0 auto; height:100%;}
+.bottom_del table a{ text-decoration:none; color:#00a2ff; font-size:30px;}
+.select_all{ text-align:left; vertical-align:middle;}
+.delect_list{text-align:right; vertical-align:middle;}
+.checkbox_all { visibility:hidden;}
+
+.agreen_icon{ background:url(../images/agreen_icon.png) no-repeat right center;}
+.unagreen_icon{ background:url(../images/unagreen_icon.png) no-repeat right center;}

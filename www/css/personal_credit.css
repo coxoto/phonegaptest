@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body{ position:relative;}
+img{ margin:0; padding:0;}
+.site_top{ background:none;}
+.pc_credit_body{ padding-top:128px;}
+.p_avatar{ width:100%;}
+.pc_bj{ width:100%;  position:absolute; top:0; left:0; z-index:-10; height:454px;}
+.avatar_img{ width:170px; height:170px; border-radius:50%; background:rgba(255,255,255,0.4); margin:0 auto; text-align:center;}
+.avatar_img img{ border-radius:50%;height: 150px;margin-top: 10px;width: 150px;}
+.p_text{ width:90.62%; color:#fff; text-align:center;margin:0px auto; line-height:48px; font-size:30px; padding:30px 0;}
+.list_my{ width:90.62%; text-align:left; background:#189fca; color:#fff; padding:0 4.69%; height:80px; line-height:80px;}
+.list_ta{width:90.62%; text-align:left; background:#3a436a; color:#fff; padding:0 4.69%; height:80px;line-height:80px;}
+.list_all{width:90.62%; text-align:left; background:#313441; color:#fff; padding:0 4.69%; height:80px;line-height:80px;}
+.list_credit{width:90.62%;padding:0 4.69%;background:#313441;display:none; }
+.credit_numcolor{ font-size:34px;color:#46bb64; padding:0 10px;}
+.c_listbox{ background:url(../images/arrow_bottom.png) no-repeat right center; width:24px; }
+.c_listbox_open{ background:url(../images/arrow_top.png) no-repeat right center; width:24px;}
+.credit_num_left{ text-align:left; font-size:22px; color:#c9c9c9; line-height:49px; border-bottom:1px dashed #909197;}
+.credit_num_right{text-align:right;line-height:49px; border-bottom:1px dashed #909197;font-size:22px; color:#c9c9c9; }
+.pc_adjust_btn{ background:#313441; width:90.62%;padding:0 4.69%;}
+.pc_adjust_box{ width:100%; position:fixed; left:0; bottom:-434px; z-index:20}
+.pc_adjust_top{ width:100%; background:rgba(64,64,64,0.85);}
+.pc_adjust_top table{ width:90.6%; margin:0 auto; font-size:22px; color:#fff; height:68px; vertical-align:middle;}
+.credit_money{color:#46bb64; padding-left:14px;}
+.credit_quota{ text-align:right;}
+.credit_unit{ color:#46bb64;}
+.pc_adjust_quota{width:480px; height:80px; line-height:80px; text-align:center; background:#46bb64; border-radius:6px; margin:0 auto; color:#fff;}
+.pc_adjust_center{ width:100%; height:286px; background:rgba(48,48,48,0.85);}
+.pc_adjust_center_tab{ width:580px; font-size:20px; color:#fff; margin:0 auto; text-align:center; height:134px;}
+.pc_adjust_center_tab td{ vertical-align:bottom;}
+.credit_relation{ display:none;}
+.pc_c_m_btn{ width:100%; text-align:left; position:absolute; z-index:4; margin-top:20px;}
+.pc_c_m_btn a{ width:50px; height:50px; background:url(../images/c_not.png) no-repeat; display:inline-table; margin:0 25px;}
+.pc_c_m_btn a#pc_m_btn_0{ margin-left:0;}
+.pc_c_m_btn a#pc_m_btn_5{ margin-right:0;}
+.pc_c_m_btn a.pc_btn_now{ background:url(../images/c_on.png) no-repeat;}
+.pc_c_m_btn a.pc_btn_over{ background:url(../images/c_over.png) no-repeat;}
+.pc_line_down{ height:2px; border:none; background:#606060; position:absolute; z-index:2; width:530px; margin-top:44px; margin-left:25px;}
+.pc_line_up{ height:2px; border:none; background:#46bb64; position:absolute; z-index:3; width:200px; margin-top:44px; margin-left:25px;}
+.pc_adjust_bottom{ width:100%; text-align:center; vertical-align:central;}
+.pc_adjust_bottom td{ width:50%; height:80px; background:rgba(32,32,32,0.85);}
+.blur {	
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    -webkit-filter: blur(8px); /* Chrome, Opera */
+       -moz-filter: blur(8px);
+        -ms-filter: blur(8px);
+            filter: blur(8px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=8, MakeShadow=false); /* IE6~IE9 */
+}
+.invit_center{ width:100%; height:370px; background:rgba(48,48,48,0.85); position:absolute;bottom:-370px; left:0; z-index:20; display:none;}
+.invit_top{width:87.5%; margin:0 auto; height:210px; padding-top:80px;}
+.invit_top table{ font-size:24px; color:#fff; text-align:center; vertical-align:middle; }
+.invit_bottom{ width:100%; height:80px; background:url(../images/cancel.png) no-repeat center center rgba(48,48,48,0.85);}
+.mb_box{ width:100%; height:100%; background:rgba(255,255,255,0.1); position:absolute; left:0; right:0; z-index:19; display:none;}
+.pc_money_select{font-size:28px; color:#46bb64; padding-bottom:24px;}

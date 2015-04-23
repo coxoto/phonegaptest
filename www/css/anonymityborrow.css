@@ -1,0 +1,43 @@
+.site_top{ top:0px; left:0; position:fixed; display:block;}
+.main{ background:none;}
+input{ margin:0;padding:0;}
+.credit_body{ padding-top:128px; background:#efeff6;}
+.c_00a2ff{ color:#00a2ff;}
+.dis_none{display:none;}
+
+.lent_title{color:#768292; font-size:26px; text-align:center; padding:38px 0 14px 0; line-height:26px;}
+.lent_box{width:90.62%; margin:0 auto; background:#fff; height:90px; border-radius:8px; box-shadow:1px 3px 3px #d7d7dd;}
+.lent_box table{ width:100%;}
+.lent_input{ width:90%; margin-left:5.6%; color:#505566; font-size:26px; line-height:90px; height:90px; border:none;}
+.lent_money_yuan{ width:16.2%; text-align:center; vertical-align:middle;}
+.predict_noney{ width:90%; margin-left:5.6%; color:#505566; font-size:26px; line-height:90px; height:90px; display:block;}
+.select_blank{font-size:26px;line-height:90px; height:90px; color:#505566;margin-left:5.6%; padding-right:28px; background:url(../images/select_blank.png) right center no-repeat; display:inline-table;}
+.bank_box{width:90.62%; margin:0 auto; background:url(../images/bank_sj.png) no-repeat top center;  margin-top:10px; padding-top:10px; display:none;}
+.bank_box table{ background:#fff; border-radius:8px;box-shadow:1px 3px 3px #d7d7dd;}
+.bank_td{padding:0 5.6%;}
+.hide_blank{font-size:26px;line-height:89px; height:89px;color:#bfbfbf; border-bottom:1px solid #bfbfbf;}
+.add_blank{ height:90px; text-align:center; vertical-align:middle;}
+.add_blank_a{ display:block; height:100%; width:100%; background:url(../images/add_bank.png) no-repeat center center;}
+.agree_bottom{bottom:0; left:0; width:100%;background:#efeff6; margin-top:284px; padding-bottom:40px;}
+.agreen_tip{font-seze:26px;color:#768292; text-align:center;}
+.agreen_clause{ margin: 0 auto; line-height:64px; width:522px;color:#768292; margin-bottom:20px;}
+.agreen_img{ width:80px; height:64px; }
+.unagreen_icon{ background:url(../images/unagreen_icon.png) no-repeat center center; }
+.agreen_icon{ background:url(../images/agreen_icon.png) no-repeat center center; }
+.lent_btn{ color:#fff;width:90.62%; margin:0 auto; background:#00a2ff; border-radius:8px; text-align:center; height:80px; line-height:80px;}
+.bank_tip{width: 90.62%; line-height:26px; color:#bfbfbf; margin:0 auto; margin-top:14px;}
+.borrow_time{ width:90.62%;background:#fff;border-radius:8px; box-shadow:1px 3px 3px #d7d7dd; margin:0 auto;}
+.borrow_fixwidth{ width:580px; height:158px; margin:0 auto;}
+.borrow_mouth{ width:378px; margin:0 auto; text-align:center; height:60px;}
+.borrow_mouth td{ vertical-align:bottom;}
+.mouth_off{ font-size:22px; color:#bfbfbf;}
+.mouth_on{color:#00a2ff; font-size:34px;}
+.time_canvas{ width:378px; height:98px; margin:0 auto; background:url(../images/swipe_bj.png) no-repeat center center; position:relative;}
+.move_btn{ position:absolute;top:23px; left:20px;}
+.mouth_1{ width:32px; height:32px;position:absolute; left:12px; top:33px;}
+.mouth_3{ width:32px; height:32px;position:absolute; left:174px; top:33px;}
+.mouth_6{ width:32px; height:32px;position:absolute; left:336px; top:33px;}
+.slide_circle{ background:url(../images/swipe_btn.png) no-repeat center center; width:54px; height:54px; left:0; top:22px; position:absolute; z-index:3;}
+.text_left{ text-align:left;}
+.text_center{text-align:center;}
+.text_right{ text-align:right;}
